@@ -1,0 +1,30 @@
+Dell					Check No. 00001
+Austin, TX				Date: 02-03-09
+
+
+Pay to the
+Order of: Dalston			$20000
+
+					Jane Smith
+
+-------------------------------------------------------
+IBM					Check No. 00002
+Austin, TX				Date: 02-03-09
+
+
+Pay to the
+Order of: Cutler			$35641
+
+					Jane Smith
+
+-------------------------------------------------------
+HP					Check No. 00045
+Dallas, TX				Date: 02-03-09
+
+
+Pay to the
+Order of: Terri			$12354
+
+					Jane Smith
+
+-------------------------------------------------------
