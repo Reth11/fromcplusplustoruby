@@ -16,11 +16,14 @@ while a!=0
     STDOUT.flush #flush the buffer
     a=gets.chomp.to_i
     if a!=0
-      if a > largest;  largest=a #compare largest;
+      if a > largest
+        largest=a #compare largest;
         end
-      if a < smallest; smallest=a#compare smallest
+      if a < smallest
+        smallest=a#compare smallest
         end
-      total=a+total; quanity+=quanity #compute average requires total and quanity
+      total=a+total
+      quanity+=quanity #compute average requires total and quanity
     end
 end
 
