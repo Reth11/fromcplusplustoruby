@@ -1,0 +1,12 @@
+# Logfile created on Sat Feb 14 08:35:43 -0600 2009 by /
+D, [2009-02-14T08:35:43.296000 #2004] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:35:46.906000 #2740] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:35:47.625000 #3316] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:36:01.781000 #4032] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:36:15.484000 #1468] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:37:04.656000 #2708] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:37:04.656000 #2708] DEBUG -- : Numerator: 10, denominator 0
+E, [2009-02-14T08:37:04.656000 #2708] ERROR -- : Error in division!: divided by 0
+D, [2009-02-14T08:37:16.968000 #848] DEBUG -- : Numerator: 10, denominator 2
+D, [2009-02-14T08:37:16.968000 #848] DEBUG -- : Numerator: 10, denominator 0
+E, [2009-02-14T08:37:16.968000 #848] ERROR -- : Error in division!: divided by 0
