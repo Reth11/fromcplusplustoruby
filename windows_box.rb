@@ -3,12 +3,12 @@ include Wx
 
 class MyFrame < Frame
   def initialize()
-    super(nil, -1, 'My Frame Title')
-    @my_panel = Panel.new(self)
-    @my_label = StaticText.new(@my_panel, -1, 'My Label Text', DEFAULT_POSITION, DEFAULT_SIZE, ALIGN_CENTER)
-    @my_textbox = TextCtrl.new(@my_panel, -1, 'Default Textbox Value')
-    @my_combo = ComboBox.new(@my_panel, -1, 'Default Combo Text', DEFAULT_POSITION, DEFAULT_SIZE, ['Item 1', 'Item 2', 'Item 3'])
-    @my_button = Button.new(@my_panel, -1, 'My Button Text')
+    super(nil, -1, 'Kyle\'s test box')
+    @my_panel = Panel.new(self) 
+    @my_label = StaticText.new(@my_panel, -1, 'Static Text', DEFAULT_POSITION, DEFAULT_SIZE, ALIGN_CENTER)
+    @my_textbox = TextCtrl.new(@my_panel, -1, 'Text Control')
+    @my_combo = ComboBox.new(@my_panel, -1, 'ComboxBox Text', DEFAULT_POSITION, DEFAULT_SIZE, ['Item 1', 'Item 2', 'Item 3'])
+    @my_button = Button.new(@my_panel, -1, 'Button')
     evt_button(@my_button.get_id()) { |event| my_button_click(event)}
     @my_panel_sizer = BoxSizer.new(VERTICAL)
     @my_panel.set_sizer(@my_panel_sizer)
